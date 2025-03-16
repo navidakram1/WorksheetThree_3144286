@@ -1,7 +1,7 @@
 // Student Name: Sk Navid Akram
 // Student ID: 3144286
 
-// A circle shape that can calculate its area and perimeter
+/** Circle implementation with area and perimeter calculations */
 public class Circle extends Shape {
     private double radius;
 
@@ -10,13 +10,13 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    // πr²
+    // Area = πr²
     @Override
     public double area() {
         return Math.PI * radius * radius;
     }
 
-    // 2πr (circumference)
+    // Perimeter = 2πr
     @Override
     public double perimeter() {
         return 2 * Math.PI * radius;
@@ -34,4 +34,4 @@ public class Circle extends Shape {
     public String toString() {
         return super.toString() + ", Radius: " + radius;
     }
-} 
+}
