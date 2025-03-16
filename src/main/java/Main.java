@@ -1,7 +1,13 @@
+package com.worksheet;
+
 // Student Name: Sk Navid Akram
 // Student ID: 3144286
 
 import java.util.ArrayList;
+import com.worksheet.Shape;
+import com.worksheet.Circle;
+import com.worksheet.Rhombus;
+import com.worksheet.RightAngledTriangle;
 
 // Main class to demonstrate shape calculations
 public class Main {
